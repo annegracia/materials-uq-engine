@@ -59,11 +59,26 @@ Running `python run_uq.py` generates **5 interactive HTML files** in `/output`:
 
 | File | What it shows |
 |------|---------------|
-| `uq_TOL_um_qrnn.html` | Main UQ result — raw data + uncertainty bounds + statistics bar |
-| `uq_TOL_um_summary_table.html` | Side-by-side table: GUM vs MC vs QRNN with verdict |
-| `uq_TOL_um_comparison.html` | Visual CI comparison across all 3 methods |
-| `uq_TOL_um_distribution.html` | Histogram + fitted normal + descriptive stats |
-| `uq_TOL_um_correlation.html` | Correlation heatmap: which process variables drive TOL? |
+| `1_uq_TOL_um_qrnn.html` | Main UQ result — raw data + uncertainty bounds + statistics bar |
+| `2_summary_table.html` | Side-by-side table: GUM vs MC vs QRNN with verdict |
+| `3_comparison.html` | Visual CI comparison across all 3 methods |
+| `4_distribution.html` | Histogram + fitted normal + descriptive stats |
+| `5_correlation.html` | Correlation heatmap: which process variables drive TOL? |
+
+### Main UQ Result
+![UQ Result](docs/1_uq_TOL_um_qrnn.png)
+
+### Method Summary Table
+![Summary Table](docs/2_summary_table.png)
+
+### Method Comparison
+![Comparison](docs/3_comparison.png)
+
+### Data Distribution
+![Distribution](docs/4_distribution.png)
+
+### Correlation Heatmap
+![Correlation](docs/5_correlation.png)
 
 ---
 
